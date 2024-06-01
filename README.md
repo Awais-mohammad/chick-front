@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project Structuring
+### 2️⃣ Level 2: Grouping by "File Types" and Features
+As projects grow, the "Level 2" structure introduces grouping by feature within each type:
+
+Project Size: Medium to Large
+Advantages:
+Simple & straightforward
+Stuff are grouped by features
+Disadvantages:
+Logic related to a feature is still spread across multiple folder types
+Now let's come back to the problem statement where the payment module needs to be modified or removed. With this structure, it's a lot easier to do that now.
+
+The "Level 2" folder structure is the one that I'd recommend if you don't know what to choose.
